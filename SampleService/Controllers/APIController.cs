@@ -22,7 +22,16 @@ namespace SampleService.Controllers
         [EnableCors(origins: "*", headers: "*", methods: "*")]
         public IEnumerable<City> Cities()
         {
-            return Helpers.Funcs.GetSampleCities();
+            return new Helpers.GetData().GetSampleCities();
+        }
+
+
+        [HttpGet]
+        [Route("api/wildlife")]
+        [EnableCors(origins: "*", headers: "*", methods: "*")]
+        public IEnumerable<Animal> wildlife()
+        {
+            return new Helpers.GetData().GetSampleWildlife();
         }
     }
 }

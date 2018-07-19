@@ -201,8 +201,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Helpers\Helpers.cs" />
+    <Compile Include="Helpers\GetData.cs" />
+    <Compile Include="Helpers\IGetData.cs" />
     <Compile Include="MessageHandlers\APIKeyHandler.cs" />
+    <Compile Include="Models\Animal.cs" />
     <Compile Include="Models\Cities.cs" />
     <Compile Include="Models\City.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

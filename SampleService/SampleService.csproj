@@ -205,6 +205,7 @@
     <Compile Include="Helpers\IGetData.cs" />
     <Compile Include="MessageHandlers\APIKeyHandler.cs" />
     <Compile Include="Models\Animal.cs" />
+    <Compile Include="Models\Animals.cs" />
     <Compile Include="Models\Cities.cs" />
     <Compile Include="Models\City.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -18,6 +18,6 @@ namespace SampleService.Models
         [StringLength(50)]
         public string Population { get; set; }
 
-        public float [] Location { get; set; }
+        public string Location { get; set; }
     }
 }

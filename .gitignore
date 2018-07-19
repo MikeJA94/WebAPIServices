@@ -64,3 +64,5 @@ typings/
 /SampleService/bin
 /SampleService/obj/Debug
 /.vs/WebAPIServices/v15
+/UnitTesting/bin/Debug
+/UnitTesting/obj/Debug
